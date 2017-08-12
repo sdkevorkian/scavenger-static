@@ -1,0 +1,59 @@
+@font-face{
+    font-family: Bernadette;
+    src: url('./fonts/bernadette_rough.ttf');
+}
+
+@font-face {
+    font-family: LindenHill;
+    src: url('./fonts/LindenHill.otf');
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: LindenHill;
+  background: url('./images/floral.jpg');
+  font-size: 16px;
+  color: #374a72;
+}
+
+h1 {
+    font-family: Bernadette;
+    margin-bottom: 30px;
+}
+
+.container {
+    width: 95%;
+    margin: 30px auto;
+    text-align: center;
+    background-color: rgba(247,233,221, 0.9);
+}
+
+.underline {
+    display: inline-block;
+    width: 20%;
+    border-bottom: 2px solid #374a72;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.task-box {
+    padding-right: 2.5%;
+}
+
+.first {
+    font-weight: 800;
+    border: 2px solid black;
+    font-size: 1.25em;
+}
+
+li {
+    background-color: rgba(247,233,221, 1);
+    border: 1px solid black;
+    display: inline-block;
+    height: 1.5em;
+    margin: 2px 0;
+}
